@@ -19,7 +19,7 @@
 
 pipeline {
     agent {label 'JDK8'}
-    trigger {pollSCM ('* * * * *')}
+    trigger { pollSCM('* * * * *')}
     stages{
         stage('source code'){
             steps{
